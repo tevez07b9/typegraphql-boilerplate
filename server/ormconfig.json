@@ -1,0 +1,16 @@
+{
+  "name": "default",
+  "type": "postgres",
+  "host": "localhost",
+  "port": 5432,
+  "username": "postgres",
+  "password": "123456",
+  "database": "boilerplate",
+  "logging": true,
+  "synchronize": false,
+  "entities": ["src/entities/*.*"],
+  "migrations": ["src/migrations/*.*"],
+  "cli": {
+    "migrationsDir": "src/migrations"
+  }
+}
